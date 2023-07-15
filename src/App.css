@@ -1,0 +1,107 @@
+/* GENERAL */
+.HomeLink {
+  font-size: 100px;
+  background-color: rgba(128, 128, 128, 0.337);
+  border-radius: 8px;
+  padding: 20px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.HomeLink:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.App {
+  text-align: center;
+}
+
+/* HOME PAGE */
+.Home {
+  background-image: url("./Pics/Vender.png");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.link {
+  padding: 20px;
+  display: block;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.welcomeText {
+  border: solid whitesmoke 4px;
+  border-radius: 8px;
+  background-color: rgba(128, 128, 128, 0.479);
+  color: whitesmoke;
+  max-width: 40%;
+  font-size: 80px;
+  position: absolute;
+  top: 30%;
+  left: 100px;
+}
+
+.Nav {
+  border: solid whitesmoke 4px;
+  border-radius: 8px;
+  background-color: rgba(128, 128, 128, 0.479);
+  color: whitesmoke;
+  max-width: 40%;
+  font-size: 40px;
+  position: absolute;
+  top: 35%;
+  right: 300px;
+  text-decoration: none;
+}
+
+/* SARDINES PAGE */
+.FreshSardines {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background: url("https://media.tenor.com/dHgcrG0i16wAAAAC/anchovies-spongebob-squarepants.gif");
+  background-size: cover;
+}
+
+/* SODA PAGE */
+.Soda {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background: url("https://media.tenor.com/OpGKnLpUDM0AAAAC/refreshing-pepsi.gif");
+  background-size: fill;
+}
+
+/* CHIPS PAGE */
+.chipAdded {
+  color: black;
+  font-size: 100px;
+}
+.chipAdded p {
+  margin: auto;
+}
+.chipAdded button {
+  margin: auto;
+  border-radius: 8px;
+  font-size: 75px;
+}
+.chipAdded button:hover {
+  background-color: yellow;
+  cursor: pointer;
+  border: 8px solid red;
+}
